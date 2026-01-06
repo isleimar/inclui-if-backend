@@ -2,15 +2,18 @@
   "name": "inclui-if-backend",
   "version": "1.0.0",
   "description": "API para o sistema de gestão do NAPNE - Projeto IncluiIF",
-  "main": "src/server.js",
+  "main": "src/back/server.js",
   "scripts": {
-    "start": "node src/server.js",    
-    "dev": "node --watch src/server.js"
+    "start": "node src/back/server.js",
+    "dev": "node --watch src/back/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",  
+  "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
   }
 }
